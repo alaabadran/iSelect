@@ -1,10 +1,17 @@
 
+@import "../bower_components/bootstrap/css/bootstrap.css";
+
+
 .selectable{
 	padding:5px;
 	border-radius:4px;
 	cursor:pointer;
 }
+.selectable input{
+	display:none;
+}
 /* This item was selected */
 .iselect{
-	background:#eee;
+	background:#333;
+	color:#eee;
 }

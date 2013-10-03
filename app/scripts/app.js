@@ -7,8 +7,10 @@ define(['jquery'], function ($) {
         var $el = $(this);
         if($el.hasClass('iselect')){
             $el.removeClass('iselect');
+            $el.find('input').attr('checked', false);
         } else {
             $el.addClass('iselect');
+            $el.find('input').attr('checked', true);
         }
     });
 });
