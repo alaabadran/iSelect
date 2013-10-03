@@ -14,6 +14,4 @@ How to use the code?
 
 - Yeoman is required ( http://yeoman.io )
 - Clone this into your machine.
-- Type: 
-	* bower install *
-	in your Terminal
+- Type: `bower install` in your Terminal
