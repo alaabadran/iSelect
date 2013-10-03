@@ -15,3 +15,4 @@ How to use the code?
 - Yeoman is required ( http://yeoman.io )
 - Clone this into your machine.
 - Type: `bower install` in your Terminal
+- To run it, type `grunt server`. It will run automatically on your browser as http://localhost:9000/
